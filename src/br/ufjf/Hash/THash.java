@@ -1,4 +1,4 @@
-package com.company.Hash;
+package br.ufjf.Hash;
 
 public class THash
 {

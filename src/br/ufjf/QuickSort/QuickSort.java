@@ -1,4 +1,4 @@
-package com.company.QuickSort;
+package br.ufjf.QuickSort;
 
 public class QuickSort <T extends Comparable<T>>{
 
@@ -41,7 +41,7 @@ public class QuickSort <T extends Comparable<T>>{
         estimatedTime = System.nanoTime() - startTime;
     }
 
-    private int partitionIt(T vet[], int left, int right, T pivot) {
+    public int partitionIt(T vet[], int left, int right, T pivot) {
         int leftPtr = left - 1;
         numberCopies++;
         int rightPtr = right;

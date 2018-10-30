@@ -1,4 +1,4 @@
-package com.company;
+package br.ufjf;
 
 import java.io.*;
 

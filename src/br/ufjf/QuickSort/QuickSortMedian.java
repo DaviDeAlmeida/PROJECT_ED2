@@ -1,4 +1,4 @@
-package com.company.QuickSort;
+package br.ufjf.QuickSort;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -40,7 +40,7 @@ public class QuickSortMedian <T extends Comparable<T>> {
             T pivot = median(vet, left, right, k);
             numberCopies++;
 
-            int partition = partitionIt(vet,left, right, pivot);
+            int partition = new QuickSort().partitionIt(vet,left, right, pivot);
             recQuickSort(vet,left, partition - 1, k);
             recQuickSort(vet,partition + 1, right, k);
         }

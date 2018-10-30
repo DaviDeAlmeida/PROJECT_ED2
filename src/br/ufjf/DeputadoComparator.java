@@ -1,4 +1,4 @@
-package com.company;
+package br.ufjf;
 import java.util.Comparator;
 
 public class DeputadoComparator implements Comparator<Deputado> {

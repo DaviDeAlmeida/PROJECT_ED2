@@ -1,4 +1,4 @@
-package com.company;
+package br.ufjf;
 
 import com.company.Hash.THash;
 

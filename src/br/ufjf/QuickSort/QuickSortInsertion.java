@@ -1,4 +1,4 @@
-package com.company.QuickSort;
+package br.ufjf.QuickSort;
 
 import java.util.Arrays;
 
@@ -34,7 +34,7 @@ public class QuickSortInsertion <T extends Comparable<T>>{
             }
             else // quicksort if large
             {
-                int pivotIndex = partitionIt(list, first, last);
+                int pivotIndex = 1; // new QuickSort().partitionIt(list, first, last);
                 quickSort(list, first, pivotIndex - 1);
                 quickSort(list, pivotIndex + 1, last);
             }
@@ -57,31 +57,6 @@ public class QuickSortInsertion <T extends Comparable<T>>{
         }
     }
 
-    private int partitionIt(T vet[], int left, int right, T pivot) {
-        int leftPtr = left - 1;
-        numberCopies++;
-        int rightPtr = right;
-        numberCopies++;
-
-        while (true) {
-            while (pivot.compareTo(vet[++leftPtr]) > 0){
-                numberComparisionsKey++;
-            }
-            while (rightPtr > 0 && (vet[--rightPtr].compareTo(pivot) > 0)){
-                numberComparisionsKey++;
-            }
-
-            if (leftPtr >= rightPtr) {
-                numberComparisionsKey++;
-                break;
-            }
-            else
-                swap(vet,leftPtr, rightPtr);
-        }
-        swap(vet,leftPtr,right);
-
-        return leftPtr;
-    }
 
 
     public int getNumberComparisionsKey() {
