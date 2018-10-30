@@ -1,5 +1,10 @@
 package br.ufjf;
 
+import br.ufjf.Model.Deputado;
+import br.ufjf.Model.Recibo;
+import br.ufjf.Services.Arquivo;
+import br.ufjf.Services.Leitura;
+
 import java.io.IOException;
 import java.util.ArrayList;
 

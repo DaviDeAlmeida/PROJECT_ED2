@@ -1,4 +1,7 @@
-package br.ufjf;
+package br.ufjf.Controllers;
+
+import br.ufjf.Model.Deputado;
+import br.ufjf.Model.Recibo;
 
 import java.util.ArrayList;
 
@@ -8,9 +11,9 @@ public class Registro
     private static int lastId;
     private static int lastIndex = 0;
 
-    Registro() { }
+    public Registro() { }
 
-    Registro(String[] columns, int id)
+    public Registro(String[] columns, int id)
     {
         registerDeputities(columns, id);
     }

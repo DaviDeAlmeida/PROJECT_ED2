@@ -1,4 +1,7 @@
-package br.ufjf;
+package br.ufjf.Services;
+
+import br.ufjf.Controllers.Registro;
+import br.ufjf.Services.Arquivo;
 
 import java.io.BufferedReader;
 import java.io.IOException;

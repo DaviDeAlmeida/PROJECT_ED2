@@ -1,7 +1,6 @@
 package br.ufjf.QuickSort;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class QuickSortMedian <T extends Comparable<T>> {

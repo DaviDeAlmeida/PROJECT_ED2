@@ -1,7 +1,5 @@
 package br.ufjf.QuickSort;
 
-import java.util.Arrays;
-
 public class QuickSortInsertion <T extends Comparable<T>>{
 
     private int numberComparisionsKey;

@@ -1,4 +1,4 @@
-package br.ufjf;
+package br.ufjf.Model;
 
 public class Recibo {
     private String ReceiptDate;
